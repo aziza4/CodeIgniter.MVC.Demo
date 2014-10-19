@@ -1,0 +1,14 @@
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+
+class Math extends CI_Model {
+
+	public function add($val1, $val2)
+	{
+		return $val1 + $val2;
+	}
+	
+	public function sub($val1, $val2)
+	{
+		return $val1 - $val2;
+	}
+}
